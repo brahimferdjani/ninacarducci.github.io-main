@@ -268,6 +268,11 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+address {
+	background-color: white;
+	padding: 5px;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;

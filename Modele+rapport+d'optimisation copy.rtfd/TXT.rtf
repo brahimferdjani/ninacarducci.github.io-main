@@ -6,7 +6,7 @@
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
-\paperw12240\paperh15840\vieww28600\viewh18000\viewkind0
+\paperw12240\paperh15840\vieww28600\viewh15280\viewkind0
 \deftab720
 \pard\pardeftab720\sa60\pardirnatural\qc\partightenfactor0
 
@@ -121,8 +121,8 @@ Score Lighthouse apr\'e8s optimisation :\
 \fs22 \cf0 Le projet comporte originalement 
 \f3\i 15
 \f0\i0  images pour un poids total de 
-\f3\i 30.890.558 bytes (30,9 MB)
-\f0\i0 . Nous avons effectu\'e9 les modifications suivantes aux images :\
+\f3\i 30,9 MB.
+\f0\i0  Nous avons effectu\'e9 les modifications suivantes aux images :\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl276\slmult1\pardirnatural\partightenfactor0
 \ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}edward-cisneros-3_h6-1NPDGw-unsplash.jpg\
 {\listtext	\uc0\u8226 	}nina.png\
@@ -135,9 +135,9 @@ Score Lighthouse apr\'e8s optimisation :\
 \
 \pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
 \cf0 Apr\'e8s les modifications, le poids total des images est de 
-\f3\i XX
-\f0\i0 MB soit un gain de 
-\f3\i XX
+\f3\i 953.568
+\f0\i0 KB soit un gain de 
+\f3\i 96.9
 \f0\i0 %.\
 \
 \pard\pardeftab720\sb360\sa120\pardirnatural\partightenfactor0
@@ -148,38 +148,58 @@ Score Lighthouse apr\'e8s optimisation :\
 \fs22 \cf0 Le projet contient \'e9norm\'e9ment d\'92erreurs qui ralentissent le site et emp\'eachent son r\'e9f\'e9rencement au plein potentiel.\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl276\slmult1\pardirnatural\partightenfactor0
 \ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}A commencer par la langue du site, tres important, permet de referencer le site par sa g\'e9olocalisation. Il est indiqu\'e9 des le debut du code dans la balise <html lang = \'93fr\'94>\
-{\listtext	\uc0\u8226 	}les metas sont inclues parmi les elements importants pour le r\'e9f\'e9rencement, on compte le \'93charset\'94, descirption - content, et title.\
+{\listtext	\uc0\u8226 	}les metas sont inclues parmi les elements importants pour le r\'e9f\'e9rencement, on compte le \'93charset\'94, description - content, et title.\
 {\listtext	\uc0\u8226 	}l\'92emplacement de la balise script ne devrait pas ralentir le chargement du site, pour cela on le place soit a la fin du code dans la balise <body>, soit on rajoute un attribut \'93defer\'94 quand il est dans la balise <head>\
-{\listtext	\uc0\u8226 	}la s\'e9mantique organise le contenu du site, divise ses elements, et leur donne des roles. Elle est aussi n\'e9cessaire pour une meilleure experience aux les utilisateurs deficients visuels a naviguer dans le site. Le moteur de recherche affichera les mot-cl\'e9s a partir des de la semantique prise en compte par le moteur de recherche.\
+{\listtext	\uc0\u8226 	}la s\'e9mantique organise le contenu du site, divise ses elements, et leur donne des roles. Elle est aussi n\'e9cessaire pour une meilleure experience aux utilisateurs deficients visuels a naviguer dans le site. Le moteur de recherche affichera les mot-cl\'e9s a partir des de la s\'e9mantique prise en compte par le moteur de recherche.\
 {\listtext	\uc0\u8226 	}la hi\'e9rarchie des titres, La bonne utilisation des listes et du formulaire. \
+{\listtext	\uc0\u8226 	}les codes inutilisables sont des obstacles a la performance du site. Trop de codes inutilisables, comme on peut en trouver dans les fichiers JavaScript ou CSS, sont visibles dans Google ChromeDev, dans la cat\'e9gorie SOURCE.\
 \pard\pardeftab720\sb360\sa120\pardirnatural\partightenfactor0
 
 \fs32 \cf0 3 - Extension des fichiers \
 \pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
 
-\fs22 \cf0 Certains fichiers ne sont pas mignifies. Ils sont lourds et causent des ralentissements du chargement du site.
-\fs32 \
+\fs22 \cf0 Certains fichiers ne sont pas mignifi\'e9s. Ils sont lourds et causent des ralentissements du chargement du site.\
+Ces fichiers sont : maugallery.js - scripts.js - style.css\
+maugallery.js taille originale : 8599b, taille mignifi\'e9e : 6396b, gain : 2203b\
+scripts.js taille originale : 328b, taille mignifi\'e9e : 167b, gain : 161b\
+style.css taille originale : 5433b, taille mignifi\'e9e : 4060b, gain : 1373b0\
+\pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
+
+\fs32 \cf0 \
 \pard\pardeftab720\sb400\sa120\pardirnatural\partightenfactor0
 
 \fs40 \cf0 III - Accessibilit\'e9 du site\
 \pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
 
-\f3\i\fs22 \cf0 [Ins\'e9rer une capture de la page du site avec l\'92extension Wave]
-\f0\i0 \
+\f3\i\fs22 \cf0 [Ins\'e9rer une capture de la page du site avec l\'92extension Wave]\
 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
 
-\f3\i [Lister les modifications faites pour valider l\'92accessibilit\'e9]
-\f0\i0 \
+\f2\i0\fs24 \cf0 {{\NeXTGraphic Screenshot 2024-08-10 at 08.27.46.jpg \width9000 \height17400 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf0 \
+\pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
+
+\f3\i \cf0 [Lister les modifications faites pour valider l\'92accessibilit\'e9]\
+\pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
+
+\f0\i0 \cf0 Les modifications faites pour valider l\'92accessibilit\'e9 sont : \
+1-la s\'e9mantique, \
+2-le respect des attributs et de leur utilisation, \
+3-\'e9viter de donner de fausses valeurs aux attributs des balises, \
+4-et ne pas manquer d\'92ins\'e9rer les attributs aux balises si n\'e9cessaire pour plus d\'92information sur le l\'92element trait\'e9e, \
+5-le titre du document y est present. \
 \pard\pardeftab720\sb400\sa120\pardirnatural\partightenfactor0
 
 \fs40 \cf0 IV - D\'e9tails de r\'e9alisation additionnelles \'e0 la demande du client\
-\pard\pardeftab720\sb360\sa120\pardirnatural\partightenfactor0
-
-\fs32 \cf0 1 - \'85\
 \pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
 
-\fs22 \cf0 \
-\
+\fs22 \cf0 1 - Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux\
+2 - num\'e9ro de telephone : 05 56 67 78 89\
+3 - joignable du lundi au vendredi de 10h \'e0 19h \
 \pard\pardeftab720\sb400\sa120\pardirnatural\partightenfactor0
 
 \fs40 \cf0 Annexe\
@@ -188,7 +208,13 @@ Score Lighthouse apr\'e8s optimisation :\
 \fs32 \cf0 Rapport complet de l\'92audit Lighthouse\
 \pard\pardeftab720\sl276\slmult1\pardirnatural\partightenfactor0
 
-\fs22 \cf0 \
+\fs22 \cf0 Trois axes principaux sont am\'e9lior\'e9s. La performance du site am\'e9lior\'e9e donne une exp\'e9rience fluide, et r\'e9duit le temps de chargement. Les images sont optimis\'e9es sp\'e9cialement pour le site, avec la taille ad\'e9quate.\
+Gr\'e2ce a la balise meta viewport, on obtient un responsive, le site s\'92affiche parfaitement a la taille des \'e9crans. \
+L\'92accessibilit\'e9 repr\'e9sente le potentiel exp\'e9rience navigation. Est ce que le site est accessible a tout le monde ? Est-ce que le site est optimis\'e9 pour les utilisateurs d\'e9ficients ? Pour permettre une bonne exp\'e9rience navigation pour tous, il faut s\'92assurer que les attributs utiles sont utilis\'e9s et pas omis, et que leurs valeurs correspondent et sans erreur. Il faut \'e9viter d\'92utiliser n\'92importe comment un formulaire car il peut fournir des informations secrets. Ne pas omettre les balises meta, link, scripts, title, car ces balises fournissent les informations n\'e9cessaires pour que le robot Google place le site parmi les r\'e9f\'e9rences \'e0 propos\'e9 aux utilisateurs, selon leur position g\'e9ographique, et leur facult\'e9 physique (utilisateur d\'e9ficient ou autre).\
+Le robot Google classe la qualit\'e9 des sites gr\'e2ce aux bonnes pratiques HTML. Ne pas omettre de pr\'e9ciser le titre du document, le r\'e9f\'e9rencement local, les metas sont pr\'e9sentes dans la balise HEAD, les attributs des images ALT ne sont pas oubli\'e9s, etc.
+\fs32 \
+
+\fs22 \
 \
 \
 }
